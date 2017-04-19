@@ -19,7 +19,28 @@ NB: This will create a file RecursiveFunction.class
 
 2. Execute it with: "java RecursiveFunction"
 
-NB: this will print recursively the data in the console
+NB: this will print in the console :
+
+```
+This is the first example:
+[1, 4, 7]
+[5, 7]
+[12]
+12
+
+
+This is the second example:
+[123, -2, 477, 3, 14, 6551]
+[121, 477, 3, 14, 6551]
+[598, 3, 14, 6551]
+[601, 14, 6551]
+[615, 6551]
+[7166]
+7166
+
+
+That's it :)
+```
 
 ## Credits
 
