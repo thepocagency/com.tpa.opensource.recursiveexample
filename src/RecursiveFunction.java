@@ -41,10 +41,12 @@ public class RecursiveFunction {
         System.out.println("\n\nThis is the first example:");
         List<Integer> data1 = Arrays.asList(1, 4, 7);
         int firstExample = letsGo.fold(data1);
+        System.out.println(firstExample);
         
         System.out.println("\n\nThis is the second example:");
         List<Integer> data2 = Arrays.asList(123, -2, 477, 3, 14, 6551);
         int secondExample = letsGo.fold(data2);
+        System.out.println(secondExample);
         
         System.out.println("\n\nThat's it :)\n\n");
     }
